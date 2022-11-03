@@ -77,7 +77,7 @@ export function CycleProvider({ children }: CyclesContextProviderProps) {
             if(cycle.id === activeCyclesId) {
                 return {
                     ...cycle,
-                    finishedAt: new Date(),
+                    interruptedDate: new Date(),
                 }
             }
 
