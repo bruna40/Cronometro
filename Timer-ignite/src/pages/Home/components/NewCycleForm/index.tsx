@@ -33,6 +33,7 @@ export function NewCycleForm() {
             type="number"
             id="time"
             placeholder="00"
+            min={1}
             // step={5}
             max={60}
             disabled={!!activeCycle}
